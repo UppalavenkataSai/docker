@@ -22,22 +22,48 @@ Why Docker helps:
 
 2️⃣ Dockerfile Keywords & Usage
 Keyword	Usage / Purpose
-===================================================================================================
+=============================================================================
+
+
 FROM	    = Sets the base image for your container
+
+
 WORKDIR	  = Sets the working directory inside container
+
+
 COPY	    = Copies files from host to container
+
+
 ADD	      = Copies files or URLs; auto-extracts archives
+
+
 RUN       = Executes a command during image build
+
+
 CMD	      = Default command when container starts
+
+
 ENTRYPOINT =	Main command that always runs on start
+
+
 EXPOSE	  = Documents ports container listens on
+
+
 ENV	     = Sets environment variables inside container
+
+
 USER	 = Runs container as a specific user (non-root)
+
 
 Tip: CMD can be overridden at runtime; ENTRYPOINT cannot.
 
+
 3️⃣ Common Docker Commands & Usage
+
+
 Command	Purpose
+
+
 docker --version	Show Docker version
 
 
