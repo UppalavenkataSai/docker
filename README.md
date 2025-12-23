@@ -39,21 +39,53 @@ Tip: CMD can be overridden at runtime; ENTRYPOINT cannot.
 3️⃣ Common Docker Commands & Usage
 Command	Purpose
 docker --version	Show Docker version
+
+
 docker ps	List running containers
+
+
 docker ps -a	List all containers
+
+
 docker images	List local images
+
+
 docker pull <image>	Download image from registry
+
+
 docker build -t <name> .	Build Docker image from Dockerfile
+
+
 docker run -it <image> bash	Start container interactively
+
+
 docker run -d -p hostPort:containerPort <image>	Run container detached with port mapping
+
+
 docker logs <id>	View container logs
+
+
 docker exec -it <id> /bin/bash	Enter running container
+
+
 docker stop <id>	Gracefully stop container
+
+
 docker kill <id>	Force stop container
+
+
 docker rm <id>	Remove stopped container
+
+
 docker rmi <id>	Remove image
+
+
 docker network ls	List Docker networks
+
+
 docker image prune	Remove unused images
+
+
 docker volume prune	Remove unused volumes
 
 ======================================================================================================
